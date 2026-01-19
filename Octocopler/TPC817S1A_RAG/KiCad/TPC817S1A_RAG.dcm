@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPC817S1A_RAG
+D OPTOISO 5KV TRANS 4SOP
+K
+F http://www.taiwansemi.com/products/datasheet/TPC817%20SERIES_C1612.pdf
+$ENDCMP
+#
+#End Doc Library

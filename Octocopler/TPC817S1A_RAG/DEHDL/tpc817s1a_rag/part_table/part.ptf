@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPC817S1A_RAG'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TSC America Inc.", "TPC817S1A RAG" (!) = "", "SOP259P1005X388-4N", "Small Outline Packages", "", "", "", "", "OPTOISO 5KV TRANS 4SOP", "http://www.taiwansemi.com/products/datasheet/TPC817%20SERIES_C1612.pdf", "3.88 mm"
+END_PART
+
+END.

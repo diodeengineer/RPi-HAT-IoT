@@ -1,0 +1,158 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TPC817S1A_RAG"
+   (description "OPTOISO 5KV TRANS 4SOP")
+   (family "ANA")
+   (package "SOP259P1005X388-4N")
+   (attribute "Datasheet Link" "http://www.taiwansemi.com/products/datasheet/TPC817%20SERIES_C1612.pdf")
+   (attribute "Geometry.Height" "3.88mm")
+   (attribute "Manufacturer_Name" "TSC America Inc.")
+   (attribute "Manufacturer_Part_Number" "TPC817S1A RAG")
+   (attribute "Mouser Part Number" "")
+   (attribute "Mouser Price/Stock" "")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "TPC817S1A_RAG")
+    (pin "A" 1 PS)
+    (pin "K" 2 PS)
+    (pin "C" 3 PS)
+    (pin "E" 4 PS)
+   )
+  )
+  (symbol "TPC817S1A_RAG"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 500 -220) (pt 600 -120))
+   )
+   (graphic
+    (stroke 20)
+    (path (pt 500 -170) (pt 500 -320))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 500 -270) (pt 600 -370))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 200 -600) (pt 700 -600) (pt 700 100) (pt 200 100) (closed))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 700 0) (pt 600 0) (pt 600 -120))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 700 -500) (pt 600 -500) (pt 600 -370))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 -300) (pt 400 -300))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 0) (pt 350 0) (pt 350 -200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 200 -500) (pt 350 -500) (pt 350 -300))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 530 -320) (pt 550 -300) (pt 570 -340) (pt 530 -320))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 350 -300) (pt 400 -200) (pt 300 -200) (pt 350 -300))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 900 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible false))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOP259P1005X388-4N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -5.775 2.6)
+      (pt 5.775 2.6)
+      (pt 5.775 -2.6)
+      (pt -5.775 -2.6)
+      (pt -5.775 2.6))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.25 2.3)
+      (pt 3.25 2.3)
+      (pt 3.25 -2.3)
+      (pt -3.25 -2.3)
+      (pt -3.25 2.3))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -3.25 -0.29)
+      (pt -0.66 2.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.075 2.3)
+      (pt 3.075 2.3)
+      (pt 3.075 -2.3)
+      (pt -3.075 -2.3)
+      (pt -3.075 2.3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -5.525 2.42)
+      (pt -3.425 2.42))))
+   (leg 1 (pt -4.475 1.295) (padstack 0))
+   (leg 2 (pt -4.475 -1.295) (padstack 0))
+   (leg 3 (pt 4.475 -1.295) (padstack 0))
+   (leg 4 (pt 4.475 1.295) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.55 2.1 0 0 0))
+   )
+  )
+ )
+)

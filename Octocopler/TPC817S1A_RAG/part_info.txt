@@ -1,0 +1,9 @@
+Manufacturer=TSC America Inc.
+PartNumber=TPC817S1A RAG
+PartCategory=Phototransistor
+PackageCategory=Small Outline Packages
+PinCount=4
+Version=1.1
+Released=2018-09-25 09:09:26
+Downloaded=2025-12-12 17:38:12
+3D=N

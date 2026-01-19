@@ -1,0 +1,17 @@
+.TPC817S1A_RAG :1 ;OPTOISO 5KV TRANS 4SOP
+SOP259P1005X388-4N
+*STM Q
+*NGS
+*PLB 1="A" 2="K" 3="C" 4="E"
+*MXP 4
+*DFN TPC817S1A_RAG
+~!Manufacturer_Name (TSC America Inc.)
+~!Manufacturer_Part_Number (TPC817S1A RAG)
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (http://www.taiwansemi.com/products/datasheet/TPC817%20SERIES_C1612.pdf)
+~!Height (3.88mm)
+TPC817S1A_RAG
+1.1!U 2.1!U 3.1!U 4.1!U 
